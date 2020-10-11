@@ -52,6 +52,8 @@
   appearance: none;
   box-shadow: none;
 
+  -webkit-tap-highlight-color: transparent;
+
   background-color: transparent;
 
   padding: 0px 10px 0px 0px;

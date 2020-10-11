@@ -56,6 +56,9 @@
   outline: none;
   appearance: none;
   resize: none;
+  box-shadow: none;
+
+  -webkit-tap-highlight-color: transparent;
 
   width: 100%;
   min-height: 40px;
