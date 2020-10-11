@@ -1,0 +1,13 @@
+.form {
+  margin-top: 20px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 15px;
+}
+
+.row {
+  margin-top: 15px;
+}

@@ -1,0 +1,9 @@
+.link {
+  color: rgb(0, 0, 238);
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.link:hover {
+  background-color: #ccf;
+}

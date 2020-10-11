@@ -1,0 +1,14 @@
+.headline .anchor {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+  color: #337ab7 !important;
+  background-color: transparent !important;
+  text-decoration: none;
+  margin: 0px !important;
+}
+
+.headline:hover .anchor {
+  visibility: visible;
+  color: #337ab7 !important;
+}

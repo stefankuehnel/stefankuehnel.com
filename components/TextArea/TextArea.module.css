@@ -1,0 +1,73 @@
+/* The global textarea wrapper that contains both the plain text textarea and the supplied icon. */
+.box {
+  display: flex;
+
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #888;
+
+  padding-top: 2.5px;
+
+  transition: border-color 0.15s ease;
+
+  min-height: 40px;
+  height: 100%;
+}
+
+/* 
+ * When the user clicks inside the textarea box, then the border
+ * should change its color to black,
+ */
+.box:focus-within {
+  border-color: black;
+}
+
+/* Styling for the icon wrapper that contains the supplied icon. */
+.box .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #888;
+
+  transition: color 0.15s ease;
+
+  width: 35px;
+  height: 35px;
+}
+
+/* 
+ * When the user clicks inside the textarea box, then the icon
+ * should change its color to black.
+ */
+.box:focus-within .icon {
+  color: black;
+}
+
+/* Styling for the plain textarea. */
+.box .textarea {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 15px;
+
+  border: none;
+  outline: none;
+  resize: none;
+
+  background-color: transparent;
+
+  margin-top: 7px;
+  padding-right: 10px;
+
+  width: 100%;
+}
+
+.box .textarea::placeholder {
+  color: #888;
+}
+
+/* 
+ * When no icon is available, indent text by 10px.
+ */
+.box .indentText {
+  padding-left: 10px;
+}
