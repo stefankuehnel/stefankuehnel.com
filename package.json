@@ -13,7 +13,7 @@
   "dependencies": {
     "@primer/octicons-react": "^11.0.0",
     "classnames": "^2.2.6",
-    "next": "^9.5.4",
+    "next": "^9.5.5",
     "next-seo": "^4.7.3",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
