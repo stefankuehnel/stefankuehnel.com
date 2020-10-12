@@ -2,9 +2,12 @@
 .box {
   display: flex;
 
-  border: 1px solid;
-  border-radius: 5px;
-  border-color: #888;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 0px;
+  border-color: whitesmoke;
+
+  background-color: whitesmoke;
 
   padding-top: 2.5px;
 
@@ -17,7 +20,8 @@
  * When the user clicks inside the textarea box, then the border
  * should change its color to black,
  */
-.box:focus-within {
+.box:focus-within,
+.box:hover {
   border-color: black;
 }
 
@@ -39,7 +43,8 @@
  * When the user clicks inside the textarea box, then the icon
  * should change its color to black.
  */
-.box:focus-within .icon {
+.box:focus-within .icon,
+.box:hover .icon {
   color: black;
 }
 
@@ -58,6 +63,8 @@
   resize: none;
   box-shadow: none;
 
+  background-color: transparent;
+
   -webkit-tap-highlight-color: transparent;
 
   width: 100%;
@@ -65,7 +72,8 @@
 }
 
 .box .textarea::placeholder {
-  color: #888;
+  color: #8e8e8e;
+  opacity: 1;
 }
 
 /* 
