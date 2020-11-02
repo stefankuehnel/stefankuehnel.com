@@ -60,14 +60,13 @@
 
   outline: none;
   appearance: none;
-  resize: none;
   box-shadow: none;
 
   background-color: transparent;
 
   -webkit-tap-highlight-color: transparent;
 
-  width: 100%;
+  width: 100% !important;
   min-height: 40px;
 }
 
