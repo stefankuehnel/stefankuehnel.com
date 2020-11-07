@@ -47,7 +47,7 @@ export default class OverwriteApp extends App {
           <link rel="mask-icon" href={mask.icon} color={mask.color} />
           <meta name="theme-color" content="#ffffff" />
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-          <meta name="google-site-verification" content={siteVerification.google}" />
+          <meta name="google-site-verification" content={siteVerification.google} />
         </Head>
         <DefaultSeo {...SEO} />
         <Component {...pageProps} />
