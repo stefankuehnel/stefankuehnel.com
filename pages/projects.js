@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
+import Code from '../components/Code/Code';
 import Headline from '../components/Headline/Headline';
 import Layout from '../components/Layout/Layout';
 import ExternalLink from '../components/Link/ExternalLink/ExternalLink';
@@ -27,6 +28,16 @@ function Projects() {
         <Headline value="Projects" />
         <p>Here are some projects of mine.</p>
         <ul>
+          <li>
+            <ExternalLink href="https://latex.userstatic.com" text="LaTeX Renderer" />
+            : A fast and easy-to-use renderer for mathematical equations that allows LaTeX maths
+            equations to be placed anywhere as <Code
+              content="&lt;img&gt;"
+              spaceBefore
+              spaceAfter
+            />{' '}
+            tags.
+          </li>
           <li>
             <ExternalLink
               href="https://jupyter.stefankuehnel.com/projects/applied-math/sonnenuhr.html"
