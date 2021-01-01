@@ -29,7 +29,7 @@ function Projects() {
         <p>Here are some projects of mine.</p>
         <ul>
           <li>
-            <ExternalLink href="https://latex.userstatic.com" text="LaTeX Renderer" />
+            <ExternalLink href="https://latex.userstatic.com" text="LaTeX API" />
             : A fast and easy-to-use renderer for mathematical equations that allows LaTeX maths
             equations to be placed anywhere as <Code
               content="&lt;img&gt;"
