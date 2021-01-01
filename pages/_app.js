@@ -30,11 +30,6 @@ export default class OverwriteApp extends App {
 
     /* The reference to the Web App Manifesto. */
     const manifest = 'https://assets-cdn.stefankuehnel.com/manifest/modules/site/site.webmanifest';
-    
-    /* The search engine site verification tokens. */
-    const siteVerification = {
-      google: 'H47K0swK5bh6SXK9qxMwjYFD6zOgpGYq1rhaTQEOQ3s',
-    }
 
     return (
       <>
@@ -47,7 +42,6 @@ export default class OverwriteApp extends App {
           <link rel="mask-icon" href={mask.icon} color={mask.color} />
           <meta name="theme-color" content="#ffffff" />
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-          <meta name="google-site-verification" content={siteVerification.google} />
         </Head>
         <DefaultSeo {...SEO} />
         <Component {...pageProps} />
