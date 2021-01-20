@@ -6,7 +6,7 @@ module.exports = {
       {
         source: '/(.*)',
         headers: createSecureHeaders({
-          forceHTTPSRedirect: [true, { maxAge: 60 * 60 * 24 * 4, includeSubDomains: true }],
+          forceHTTPSRedirect: [true, { maxAge: 31536000, includeSubDomains: true }],
           referrerPolicy: 'same-origin'
         })
       }
