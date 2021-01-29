@@ -98,11 +98,6 @@ function Projects() {
             />
             : User-friendly solution for Internet users to determine who runs a certain domain.
           </li>
-          <li>
-            <ExternalLink href="https://9bn.de/passwords" text="Password Generator" />: An
-            easy-to-use, ad-free password generator that allows everyone to create new passwords
-            on-the-fly.
-          </li>
         </ul>
       </Layout>
     </>
