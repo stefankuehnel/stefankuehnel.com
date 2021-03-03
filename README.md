@@ -1,7 +1,7 @@
 # stefankuehnel.com
-[![Build Status](https://travis-ci.com/stefankuehnel/stefankuehnel.com.svg?branch=main)](https://travis-ci.com/stefankuehnel/stefankuehnel.com)
-![CI](https://github.com/stefankuehnel/stefankuehnel.com/workflows/CI/badge.svg)
+[![Node.js](https://github.com/stefankuehnel/stefankuehnel.com/actions/workflows/node.js.yml/badge.svg)](https://github.com/stefankuehnel/stefankuehnel.com/actions/workflows/node.js.yml)
 ![CodeQL](https://github.com/stefankuehnel/stefankuehnel.com/workflows/CodeQL/badge.svg)
+[![LightHouse](https://github.com/stefankuehnel/stefankuehnel.com/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/stefankuehnel/stefankuehnel.com/actions/workflows/lighthouse.yml)
 
 The frontend, backend, and content source code for stefankuehnel.com
 
