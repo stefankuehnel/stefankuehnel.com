@@ -8,7 +8,7 @@
     "start": "next start",
     "export": "next export",
     "lint": "eslint --fix .",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx,json}\""
   },
   "dependencies": {
     "@primer/octicons-react": "^12.1.0",
