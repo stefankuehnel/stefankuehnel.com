@@ -28,7 +28,8 @@ module.exports = {
     'prettier/prettier': ['error', { endOfLine: 'auto' }, { usePrettierrc: true }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
