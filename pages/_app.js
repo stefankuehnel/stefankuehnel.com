@@ -2,9 +2,9 @@ import '../styles/main.css';
 // import normalize.css
 import 'normalize.css';
 
-import { DefaultSeo } from 'next-seo';
 import App from 'next/app';
 import Head from 'next/head';
+import { DefaultSeo } from 'next-seo';
 import React from 'react';
 
 // import your default seo configuration
