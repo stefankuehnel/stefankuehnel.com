@@ -40,14 +40,14 @@ function Projects() {
           </li>
           <li>
             <ExternalLink
-              href="https://jupyter.stefankuehnel.com/projects/applied-math/sonnenuhr.html"
+              href="https://jupyter.stefankuehnel.com/projects/sonnenuhr.html"
               text="Sundial"
             />
             : Python program that generates a location based dial from given coordinates.
           </li>
           <li>
             <ExternalLink
-              href="https://jupyter.stefankuehnel.com/projects/applied-math/pagerank.html"
+              href="https://jupyter.stefankuehnel.com/projects/pagerank.html"
               text="PageRank Algorithm"
             />
             : Mathematical method that counts the number and quality of links to a page to determine
@@ -55,7 +55,7 @@ function Projects() {
           </li>
           <li>
             <ExternalLink
-              href="https://jupyter.stefankuehnel.com/projects/applied-math/deterministischer-endlicher-automat.html"
+              href="https://jupyter.stefankuehnel.com/projects/deterministischer-endlicher-automat.html"
               text="Deterministic Finite Automata"
             />
             : Implementation of a DFA that allows to capture any expression and process it according

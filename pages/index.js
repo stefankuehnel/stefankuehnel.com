@@ -39,7 +39,7 @@ function HomePage() {
           <li>
             My latest project was the construction of a
             <ExternalLink
-              href="https://jupyter.stefankuehnel.com/projects/applied-math/sonnenuhr.html"
+              href="https://jupyter.stefankuehnel.com/projects/sonnenuhr.html"
               text="sundial"
               spaceBefore
               spaceAfter
