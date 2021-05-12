@@ -63,7 +63,7 @@ function Projects() {
           </li>
           <li>
             <ExternalLink
-              href="https://static.bealeafusercontent.com/media/stefankuehnel.com/pubs/de/de/archive/computing/difference-between-hardlinks-and-softlinks.pdf"
+              href="https://docs.stefankuehnel.com/pdf/hardlinks_und_softlinks.pdf"
               text="Difference between Hardlinks and Softlinks"
             />
             : Academic paper on the differences and applications of hard- and softlinks in modern
