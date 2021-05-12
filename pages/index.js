@@ -51,7 +51,7 @@ function HomePage() {
           <li>
             The academic paper
             <ExternalLink
-              href="https://static.bealeafusercontent.com/media/stefankuehnel.com/pubs/de/de/archive/seminar/politische_meinungsbildung_im_digitalen_zeitalter_anhand_von_beispielen.pdf"
+              href="https://docs.stefankuehnel.com/pdf/politische_meinungsbildung.pdf"
               text="political opinion-forming in the digital age using examples"
               spaceBefore
               spaceAfter
